@@ -1,0 +1,5 @@
+name | age | gender | city
+John Doe | 30 | Male | New York
+Jane Smith | 25 | Female | Los Angeles
+Alice Johnson | 28 | Female | Chicago
+Bob Brown | 35 | Male | Houston

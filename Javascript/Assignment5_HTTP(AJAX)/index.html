@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD App</title>
+</head>
+<body>
+    <div id="issues">
+        <H1>Issue Tracking System</H1>
+        <div class="button"><button id="add">Create New</button></div>
+        <div class="table" id="table">
+        </div>  
+    </div>
+    <div id="addIssue">
+        <H1>Add New Issue</H1>
+        <form>
+            <input id="issue_id" type="number" name="id" placeholder="Id" required>
+            <textarea id="des" name="description" placeholder="Description of Issue" required></textarea>
+            <input id="assignee" type="text" name="assignee" placeholder="Assignee" required>
+            <select id="priority" name="Priority" required>
+                <option value="none">Select Priority</option>
+                <option value="Very Low">Very Low</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Very High">Very High</option>
+            </select>
+            <div class="button" style="justify-content: flex-start; margin-left: 0;">
+                <input type="submit" value="Add">
+                <input type="reset" onclick="cancel_add();" class="btn delete_btn" value="Cancel"></input>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

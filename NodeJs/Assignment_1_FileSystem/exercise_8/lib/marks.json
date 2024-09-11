@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Anand",
+    "age": 22,
+    "gender": 0,
+    "city": "Mumbai"
+  },
+  {
+    "name": "Bihu",
+    "age": 17,
+    "gender": 1,
+    "city": "Pune"
+  },
+  {
+    "name": "John",
+    "age": 20,
+    "gender": 0,
+    "city": "New York"
+  },
+  {
+    "name": "Jane",
+    "age": 19,
+    "gender": 1,
+    "city": "London"
+  }
+]

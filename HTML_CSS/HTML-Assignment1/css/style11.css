@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    font-size:3rem;
+    color: #7583f9;
+    padding: 1rem;
+}
+
+div{
+    margin: 1rem;
+}
+
+.right{
+    text-align: right;
+}
+
+.justified{
+    text-align: justify;
+}
+
+.left{
+    /* By default left. */
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}

@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.header a,
+.footer a,
+.leftnav a{
+    text-decoration: none;
+    color: white;
+}
+
+.header,
+.footer,
+.leftnav{
+    color: white;
+}
+
+.logo{
+    margin: 0 1rem;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 13vh;
+    background-color: #271a1a;
+}
+
+.leftnav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 13vh;
+    left: 0;
+    height: 100vh;
+    padding: 1vw;
+    width: 12vw;
+    gap: 1rem;
+    background-color: #312020;
+}
+
+.leftnav > div{
+    width: max-content;
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.leftnav > div:hover{
+    font-size: 1.7rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #271a1a;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    bottom: 0;
+}
+
+.des{
+    width: 70%;
+}
+
+.active{
+    padding-bottom: 0.1rem;
+    border-bottom: 2px solid white;
+}
+
+.content{
+    position: fixed;
+    display: flex;
+    height: 75vh;
+    top: 13.1vh;
+    width: 86vw;
+    left: 14vw;
+    overflow-y: scroll;
+}
+
+.content > .context{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width: 100%;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.context li{
+    color: rgb(83, 82, 82);
+}
+
+.context B{
+    color: rgb(73, 73, 73);
+}
+
+.profile{
+    flex: 1;
+    height: 75vh;
+}
+
+.profile img{
+    /* width: 100%; */
+    height: 75vh;
+}
+
+.footer svg{
+    fill: white;
+    margin: 1rem 0.5rem;
+    width: 16px;
+    height: 16px;
+    transition: 0.2s;
+}
+
+.footer svg:hover{
+    padding: 3px;
+    border-radius: 7px;
+}
+
+#insta:hover{
+    background-image: linear-gradient(to bottom right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+#facebook:hover{
+    background: #1877f2;
+}
+
+#linkedin:hover{
+    background: #0077B5;
+}
+
+#github:hover{
+    background: #2b3137;
+}
+
+#xico:hover{
+    background-color: white;
+    fill: black;
+}
+
+.footer div{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cards{
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    overflow: auto;
+}
+
+.card{
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 7px;
+    max-height: 15rem;
+    width: 90%;
+    background-color: white;
+    border: 1px solid rgb(177, 177, 177);
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 32px grey;
+}
+
+.card > .left{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    overflow: hidden;
+}
+
+.card > .left > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card > .bottom{
+    flex: 1;
+}
+
+
+.card_info{
+    padding: 1rem;
+}
+
+.card_title{
+    flex: 1;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 1rem 0;
+}
+
+.carddes{
+    text-align: justify;
+}
+
+.card .links{
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card svg{
+    width: 24px;
+    height: 24px;
+    margin: 0 0.5rem;
+}
+
+.contact{
+    display: flex;
+    /* padding: 1rem; */
+    gap: 1rem;
+    width: 80%;
+    background-position: center;
+    background-size: 120%;
+}
+
+.contact > div{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact .form{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    order: 1;
+}
+
+.contact > .links{
+    flex: 2;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    order: 2;
+    text-align: center;
+}
+
+.contact > .links > .direct{
+    border: none;
+    height: min-content;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.contact > .links > .social{
+    gap: 2rem;
+    height: max-content;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+    margin: 1rem;
+}
+
+.contact > .links svg{
+    width: 32px;
+    height: 32px;
+    transition: 0.2s;
+}
+
+.contact > .links >.social svg:hover{
+    border-radius: 7px;
+    padding: 0.4rem;
+    fill: white;
+}
+
+.contact > .links > .direct > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+    gap: 0.5rem;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact .links > div{
+    display: flex;
+    width: max-content;
+    height: 2rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 7px;
+    gap: 1rem;
+}
+
+.contact .links a{
+    text-decoration: none;
+    font-weight: bold;
+}
+

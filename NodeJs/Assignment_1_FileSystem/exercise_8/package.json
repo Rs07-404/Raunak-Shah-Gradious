@@ -1,0 +1,16 @@
+{
+    "name": "exercise_8",
+    "version": "1.0.0",
+    "description": "JSON to xlsx",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node index.js"
+    },
+    "author": "rs7",
+    "license": "ISC",
+    "dependencies": {
+        "exceljs": "^4.4.0",
+        "xlsx": "^0.18.5"
+    }
+}

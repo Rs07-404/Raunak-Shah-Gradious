@@ -1,0 +1,56 @@
+[
+    {
+        "eventId": 1,
+        "eventName": "Tech Innovators Summit",
+        "eventDesc": "A gathering of the brightest minds in technology to discuss emerging trends and innovations.",
+        "Date": "2024-10-15T09:00:00Z",
+        "organizedby": "InnovateX",
+        "location": "Mumbai, India",
+        "img": "https://images.unsplash.com/photo-1549921296-3d6a5f6c5d8e"
+    },
+    {
+        "eventId": 2,
+        "eventName": "Green Earth Conference",
+        "eventDesc": "An event focused on sustainable development and environmental conservation.",
+        "Date": "2024-11-05T10:30:00Z",
+        "organizedby": "EcoLife Foundation",
+        "location": "Delhi, India",
+        "img": "https://images.unsplash.com/photo-1563132331-6ab7d8de5371"
+    },
+    {
+        "eventId": 3,
+        "eventName": "AI & Machine Learning Expo",
+        "eventDesc": "Explore the latest advancements in AI and Machine Learning with experts from around the globe.",
+        "Date": "2024-09-20T08:00:00Z",
+        "organizedby": "TechWorld",
+        "location": "Bangalore, India",
+        "img": "https://images.unsplash.com/photo-1581091012184-e93d4c47d0cc"
+    },
+    {
+        "eventId": 4,
+        "eventName": "Startup Pitch Fest",
+        "eventDesc": "A platform for budding entrepreneurs to pitch their startup ideas to investors.",
+        "Date": "2024-12-10T13:00:00Z",
+        "organizedby": "StartupHub",
+        "location": "Pune, India",
+        "img": "https://images.unsplash.com/photo-1513617336324-cf033ab0b7d1"
+    },
+    {
+        "eventId": 5,
+        "eventName": "Cultural Fest 2024",
+        "eventDesc": "A celebration of diverse cultures through music, dance, and art.",
+        "Date": "2024-10-25T17:00:00Z",
+        "organizedby": "WIT College",
+        "location": "Solapur, India",
+        "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd"
+    },
+    {
+        "eventId": 6,
+        "eventName": "Blockchain Symposium",
+        "eventDesc": "Dive into the world of blockchain technology with industry experts and innovators.",
+        "Date": "2024-11-15T09:30:00Z",
+        "organizedby": "CryptoCon",
+        "location": "Hyderabad, India",
+        "img": "https://images.unsplash.com/photo-1565618245146-5a885a06ab5d"
+    }
+]

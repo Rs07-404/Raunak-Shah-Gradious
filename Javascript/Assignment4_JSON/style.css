@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem;
+}
+
+.tr, .th{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.th{
+    font-weight: bold;
+}
+
+.tr div, .th div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.tr div:nth-child(2), .th div:nth-child(2){
+    flex: 4;
+}
+
+.table .tr:nth-child(even){
+    background-color: rgb(207, 206, 206);
+}

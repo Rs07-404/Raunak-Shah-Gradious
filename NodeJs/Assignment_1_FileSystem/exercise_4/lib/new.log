@@ -1,0 +1,14 @@
+28-Jul-2024 8:12:36 PM INFO - Server is starting...
+28-Jul-2024 8:12:36 PM INFO - Server started on port 3000
+28-Jul-2024 8:12:36 PM INFO - Received GET request for /api/users
+28-Jul-2024 8:12:36 PM INFO - Responded with status 200 for /api/users
+28-Jul-2024 8:12:36 PM INFO - Received POST request for /api/users
+28-Jul-2024 8:12:36 PM INFO - Responded with status 201 for /api/users
+28-Jul-2024 8:12:36 PM ERROR - Database connection failed
+28-Jul-2024 8:12:36 PM INFO - Received GET request for /api/products
+28-Jul-2024 8:12:36 PM INFO - Responded with status 200 for /api/products
+28-Jul-2024 8:12:36 PM WARN - High memory usage detected
+28-Jul-2024 8:12:36 PM INFO - Received DELETE request for /api/users/123
+28-Jul-2024 8:12:36 PM INFO - Responded with status 204 for /api/users/123
+28-Jul-2024 8:12:36 PM INFO - Server is shutting down...
+28-Jul-2024 8:12:36 PM INFO - Server shutdown complete

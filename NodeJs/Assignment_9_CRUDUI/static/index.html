@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="items">
+        <H1>Items Tracking System</H1>
+        <div class="button"><input type="number" name="search" id="search" placeholder="Search by id."><button id="add">Add New Item</button></div>
+        <div class="table" id="table"></div>  
+    </div>
+    <div id="addItem">
+        <H1>Add New Item</H1>
+        <form>
+            <input id="name" type="text" name="name" placeholder="Name" required />
+            <textarea id="description" name="description" placeholder="Description" required></textarea>
+            <input id="price" type="text" name="price" placeholder="Price" required />
+            <input id="category" type="text" name="category" placeholder="Category" required />
+            <input id="quantity" type="number" name="quantity" placeholder="Quantity" required />
+            <input id="brand" type="text" name="brand" placeholder="Brand" required />
+            <input id="weight" type="text" name="weight" placeholder="Weight" required />
+            <input id="color" type="text" name="color" placeholder="Color" required />
+            <div class="button" style="justify-content: flex-start; margin-left: 0;">
+                <input type="submit" value="Add">
+                <input type="reset" onclick="cancel_add();" class="btn delete_btn" value="Cancel"></input>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

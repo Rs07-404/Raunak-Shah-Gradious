@@ -1,0 +1,3 @@
+[submodule "hackathon"]
+	path = hackathon
+	url = https://github.com/Rs07-404/WalletApp.git

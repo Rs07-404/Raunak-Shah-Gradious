@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "d3ddcbe4-aea9-4113-8cee-ab0ddecbfe50",
+		"name": "items_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28972397"
+	},
+	"item": [
+		{
+			"name": "all_items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "item_with_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/items/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"items",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_items",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Tablets\",\r\n    \"description\":\"Latest ipads with 11\\\" 13\\\" sizes with 256GB and 512GB storage.\",\r\n    \"price\":89900.00,\r\n    \"category\":\"Electronics\",\r\n    \"quantity\":50,\r\n    \"brand\":\"Apple\",\r\n    \"weight\":\"max 582g\",\r\n    \"color\":\"silver\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add_items",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/items?name=Tablets&description=Latest ipads with 11\" 13\" sizes with 256GB and 512GB storage.&price=89900.00&category=Electronics&quantity=50&brand=Apple&weight=max 582g&color=silver",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"items"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Tablets"
+								},
+								{
+									"key": "description",
+									"value": "Latest ipads with 11\" 13\" sizes with 256GB and 512GB storage."
+								},
+								{
+									"key": "price",
+									"value": "89900.00"
+								},
+								{
+									"key": "category",
+									"value": "Electronics"
+								},
+								{
+									"key": "quantity",
+									"value": "50"
+								},
+								{
+									"key": "brand",
+									"value": "Apple"
+								},
+								{
+									"key": "weight",
+									"value": "max 582g"
+								},
+								{
+									"key": "color",
+									"value": "silver"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2029"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 14 Aug 2024 15:07:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>TypeError: Cannot read properties of undefined (reading &#39;name&#39;)\n            <br> &nbsp; &nbsp;at file:///E:/RS11/My%20work/Colleges%20and%20Syllabus/WIT/Career/Internships/Gradious/Code/NodeJs/Assignment_6_CRUD/index.js:60:26\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n            <br> &nbsp; &nbsp;at next (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\route.js:149:13)\n            <br> &nbsp; &nbsp;at Route.dispatch (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\route.js:119:3)\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n            <br> &nbsp; &nbsp;at E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:284:15\n            <br> &nbsp; &nbsp;at Function.process_params (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:346:12)\n            <br> &nbsp; &nbsp;at next (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:280:10)\n            <br> &nbsp; &nbsp;at expressInit (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\middleware\\init.js:40:5)\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n        </pre>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "update_item",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Smartphone\",\r\n    \"description\": \"Flagship model with 6.7\\\" AMOLED display, 256GB storage, and 5G connectivity.\",\r\n    \"price\": 74999.00,\r\n    \"category\": \"Smart Electronics\",\r\n    \"quantity\": 100,\r\n    \"brand\": \"Samsung\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/items/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"items",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "add_items",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/items?name=Tablets&description=Latest ipads with 11\" 13\" sizes with 256GB and 512GB storage.&price=89900.00&category=Electronics&quantity=50&brand=Apple&weight=max 582g&color=silver",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"items"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Tablets"
+								},
+								{
+									"key": "description",
+									"value": "Latest ipads with 11\" 13\" sizes with 256GB and 512GB storage."
+								},
+								{
+									"key": "price",
+									"value": "89900.00"
+								},
+								{
+									"key": "category",
+									"value": "Electronics"
+								},
+								{
+									"key": "quantity",
+									"value": "50"
+								},
+								{
+									"key": "brand",
+									"value": "Apple"
+								},
+								{
+									"key": "weight",
+									"value": "max 582g"
+								},
+								{
+									"key": "color",
+									"value": "silver"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2029"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 14 Aug 2024 15:07:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>TypeError: Cannot read properties of undefined (reading &#39;name&#39;)\n            <br> &nbsp; &nbsp;at file:///E:/RS11/My%20work/Colleges%20and%20Syllabus/WIT/Career/Internships/Gradious/Code/NodeJs/Assignment_6_CRUD/index.js:60:26\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n            <br> &nbsp; &nbsp;at next (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\route.js:149:13)\n            <br> &nbsp; &nbsp;at Route.dispatch (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\route.js:119:3)\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n            <br> &nbsp; &nbsp;at E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:284:15\n            <br> &nbsp; &nbsp;at Function.process_params (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:346:12)\n            <br> &nbsp; &nbsp;at next (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\index.js:280:10)\n            <br> &nbsp; &nbsp;at expressInit (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\middleware\\init.js:40:5)\n            <br> &nbsp; &nbsp;at Layer.handle [as handle_request] (E:\\RS11\\My work\\Colleges and Syllabus\\WIT\\Career\\Internships\\Gradious\\Code\\NodeJs\\Assignment_6_CRUD\\node_modules\\express\\lib\\router\\layer.js:95:5)\n        </pre>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "delete_item",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/items/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"items",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

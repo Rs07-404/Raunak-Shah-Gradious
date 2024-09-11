@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Job Application</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/basic.css" />
+</head>
+
+<body>
+  <div class="header"><H1>Job Application Form</H1></div>
+  <div class="container">
+  <form id="form">
+    <div class="dinput">
+      <input type="text" name="fname" placeholder="First Name">
+      <input type="text" name="lname" placeholder="Last Name">
+    </div>
+    <div class="err" id="nameerr"></div>
+    <div class="dinput">
+      <input type="text" name="email" placeholder="Email">
+      <input type="tel" name="phone" placeholder="Phone">
+    </div>
+    <div class="err" id="emailerr"></div>
+    <div class="single"><select name="country">
+      <option value="India">India</option>
+      <option value="Shrilanka">Shri Lanka</option>
+      <option value="China">China</option>
+      <option value="Dubai">Dubai</option>
+      <option value="France">France</option>
+      <option value="Italy">Italy</option>
+    </select></div>
+    <div class="single">
+      <input type="date" name="date">
+    </div>
+    <div class="single">
+      <input type="text" name="city" placeholder="City">
+    </div>
+    <div class="err" id="cityerr"></div>
+    <div class="single">
+      <input type="text" name="address" placeholder="Address">
+    </div>
+    <div class="single">
+      <select name="position">
+        <option value="select">Select Desired Position</option>
+        <option value="webdev">Web Developer</option>
+        <option value="softeng">Software Engineer</option>
+        <option value="dbman">Database Manager</option>
+        <option value="datascience">Data Scientist</option>
+        <option value="designer">UI/UX Design</option>
+      </select>
+    </div>
+    <div class="err" id="poserr"></div>
+    <div class="single">
+      <textarea id="addinfo" placeholder="Additional info"></textarea>
+    </div>
+    <div id="fileinput" class="single">
+      <input tpye="text" placeholder="Add your CV">
+      <label id="file" for="cv">Browse</label>
+      <input type="file" id="cv" value="Browse" placeholder="Add your CV">
+    </div>
+    <div class="info">Only PDF, DOC Files less than 1MB</div>
+    <div class="buttons">
+      <input class="btn" type="reset">
+      <input class="btn" type="submit">
+    </div>
+  </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

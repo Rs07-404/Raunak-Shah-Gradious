@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    border-bottom: 1px solid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.nav > div{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content{
+    background-color: #0beae0;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.des{
+    padding: 1rem;
+    font-size: 1.2rem;
+    word-spacing: 0.5rem;
+    text-align: justify;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cards > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+    height: 14rem;
+    width: 9rem;
+    background-color: white;
+}
+
+.top{
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+}

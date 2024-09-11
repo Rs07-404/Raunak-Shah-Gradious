@@ -1,0 +1,14 @@
+{
+    "name": "sales_analysis",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "rs7",
+    "type": "module",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mysql2": "^3.11.0"
+    }
+}

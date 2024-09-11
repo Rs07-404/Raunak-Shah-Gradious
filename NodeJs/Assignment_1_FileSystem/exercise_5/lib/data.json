@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "age": 30,
+      "gender": "Male",
+      "city": "New York"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "gender": "Female",
+      "city": "Los Angeles"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "gender": "Female",
+      "city": "Chicago"
+    },
+    {
+      "name": "Bob Brown",
+      "age": 35,
+      "gender": "Male",
+      "city": "Houston"
+    }
+  ]
+}

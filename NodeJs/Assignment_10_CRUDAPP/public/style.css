@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", "sans-serif";
+}
+
+.body{
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.login, .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(145deg, #f9e8e6, #f5f4dc, #e6f9e6, #dcebf5, #f5dcf5);
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(255, 242, 218);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    padding: 1rem;
+}
+
+#login-button, #signupButton,#createAccountButton,#add-button,.cancel_button{
+    padding: 0.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+#createAccountButton{
+    background-color: blueviolet;
+}
+
+.formhead{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+}
+
+.header > .left, .header > .right{
+    flex: 1
+}
+
+.header > .left{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header > .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+.greeting, .itemsHead{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.cancelCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1% 1% 1%;
+}
+
+.hideCart{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: max-content;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
+    background: linear-gradient(145deg, #f9e8e6, #f5f4dc, #e6f9e6, #dcebf5, #f5dcf5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95vw;
+}
+
+.items{
+    flex-direction: column;
+}
+
+.tr, .th{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.th{
+    font-weight: bold;
+}
+
+.tr div, .th div{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid rgb(184, 184, 184);
+    overflow-y: auto;
+
+}
+
+
+.tr div:nth-child(4), .th div:nth-child(4){
+    flex: 4;
+}
+
+.tr div:nth-child(1), .th div:nth-child(1){
+    flex: 1;
+}
+
+.tr div:nth-child(2), .th div:nth-child(2){
+    flex: 1;
+}
+
+.table .tr:nth-child(even){
+    background-color: rgb(230, 226, 226);
+}
+
+.cancel{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.logoutButton{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.itemheadBar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.add-item{
+    height: 3rem;
+    width: max-content;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #20a165;
+    padding: 0.5rem;
+    transition: 0.5s;
+}
+
+.add-item:hover{
+    background-color: #188754;
+}
+
+#add-item .inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#add-item .form, #signup-form .form{
+    width: 50vw;
+    height: max-content;
+}
+
+#add-item .inputs > input, #signup-form .inputs > input{
+    flex: 1 1 calc(33.33% - 10px);
+}
+
+#signup-form .inputs{
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    width: max-content;
+}
+
+.cancel_button{
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.bottom_bottom{
+    display: flex;
+}
+
+.bottom_bottom > div{
+    flex: 1;
+}
+
+.cvv{
+    font-style: italic;
+}
+
+.topDesignDiv{
+    position: absolute;
+    top: -25vh;
+    left: -25vw;
+    width: 40vw;
+    height: 60vh;
+    animation: rotate 10s linear infinite;
+}
+
+.bottomDesignDiv{
+    position: absolute;
+    bottom: -25vh;
+    right: -25vw;
+    width: 50vw;
+    height: 60vh;
+    animation: antiRotate 10s linear infinite;
+}
+
+.heading{
+    position: absolute;
+    top: 0;
+    left: 49v;
+    font-size: 3rem;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes antiRotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+#login-form, #add-item, #signup-form{
+    position: relative;
+    overflow: hidden;
+}

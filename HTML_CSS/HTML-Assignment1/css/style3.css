@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    font-size:3rem;
+    color: #7583f9;
+    padding: 1rem;
+}
+
+p{
+    margin: 1rem;
+}

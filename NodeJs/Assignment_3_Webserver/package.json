@@ -1,0 +1,13 @@
+{
+    "name": "raunak-nodejs-assignment3",
+    "version": "1.0.0",
+    "description": "web-server",
+    "scripts": {
+        "start": "echo To run a program run: \n node exercise1.js \n node exercise2.js \n node exercise3.js \n node exercise4.js"
+    },
+    "author": "rs7",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}

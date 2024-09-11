@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Store</title>
+</head>
+<body>
+    <div id="login-form" class="login">
+        <div class="heading">Store</div>
+        <div class="topDesignDiv"><img src="./assets/doodles.png" width="80%" height="100%"/></div>
+        <div class="bottomDesignDiv"><img src="./assets/doodle_2.png" width="80%" height="100%"/></div>
+        <div class="form">
+            <div class="formhead">Login</div>
+            <div class="inputs">
+                <input type="text" name="username" id="login-username" placeholder="Username">
+                <input type="password" name="password" id="login-password" placeholder="Password">
+                <label for="isAdmin"><input type="checkbox" name="isAdmin" id="isAdmin">Admin</label>
+                <button id="login-button">Login</button>
+                <button id="createAccountButton" onclick="showsignup()">Create a New Account ?</button>
+            </div>
+        </div>
+    </div>
+    <div id="signup-form" class="signup">
+        <div class="heading">Store</div>
+        <div class="topDesignDiv"><img src="./assets/doodles.png" width="80%" height="100%"/></div>
+        <div class="bottomDesignDiv"><img src="./assets/doodle_2.png" width="80%" height="100%"/></div>
+        <div class="form">
+            <div class="formhead">SignUp</div>
+            <div class="inputs">
+                <input type="text" name="name" id="signupName" placeholder="Name">
+                <input type="number" name="phone" id="signupPhone" placeholder="Phone / Mobile Number">
+                <input type="email" name="email" id="signupEmail" placeholder="Email Address">
+                <input type="text" name="username" id="signupUsername" placeholder="Create a unique Username">
+                <input type="password" name="password" id="signupPassword" placeholder="Password">
+                <input type="password" name="password" id="signupRePassword" placeholder="Retype Password">
+            </div>
+            <div class="buttons">
+                <button id="signupButton">Submit</button>
+                <button id="createAccountButton" onclick="showlogin()">Already a user? Login</button>
+            </div>
+        </div>
+        <div id="signupMessage"></div>
+    </div>
+    <div id="content" class="content">
+        <div class="header">
+            <div class="left">Items Store</div>
+            <div class="right">
+                <div class="ul">
+                    <div class="li" onclick="loadCart();">Cart</div>
+                    <div class="li">About Us</div>
+                    <div class="li">Community</div>
+                    <button onclick="logout()" class="li logoutButton">LogOut</button>
+                </div>
+                <div id="profile" class="profile"></div>
+            </div>
+        </div>
+        <div class="body">
+            <div id="greeting" class="greeting"></div>
+            <div id="buttonBar" class="button"><input type="number" name="search" id="search" placeholder="Search by id."></div>
+            <div class="itemheadBar"><div id="listHeading" class="itemsHead">Items</div></div>
+            <div id="items" class="items">
+                <div class="table" id="table"></div>
+            </div>
+            <div id="cancelCart" class="cancelCart"><button class="hideCart" onclick="hideCart()">Show Items</button></div>
+            <div id="cart" class="items">
+                <div class="table" id="cartTable"></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

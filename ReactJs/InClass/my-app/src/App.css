@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.imageContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: 100%;
+}
+
+.imageContainer h1{
+  padding: 0;
+}
+
+.imageBox{
+  flex: 1 1 calc(25% - 10px);
+}
+
+
+.App-link {
+  color: #61dafb;
+}

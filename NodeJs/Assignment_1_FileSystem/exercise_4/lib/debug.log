@@ -1,0 +1,14 @@
+INFO - Server is starting...
+INFO - Server started on port 3000
+INFO - Received GET request for /api/users
+INFO - Responded with status 200 for /api/users
+INFO - Received POST request for /api/users
+INFO - Responded with status 201 for /api/users
+ERROR - Database connection failed
+INFO - Received GET request for /api/products
+INFO - Responded with status 200 for /api/products
+WARN - High memory usage detected
+INFO - Received DELETE request for /api/users/123
+INFO - Responded with status 204 for /api/users/123
+INFO - Server is shutting down...
+INFO - Server shutdown complete

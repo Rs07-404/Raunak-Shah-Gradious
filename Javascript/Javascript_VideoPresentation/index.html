@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(0, 157, 255);
+            text-align: center;
+            font-weight: bold;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .random{
+            font-size: 15rem;
+        }
+
+        #generate{
+            padding: 1rem;
+            width: 10rem;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 8px;
+            transition: 0.5s;
+        }
+
+        #generate:hover{
+            background-color: rgb(101, 34, 163);
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Number between 0 and 200</h1>
+    <div class="random" id="number"></div>
+    <button id="generate">Get Random Number</button>
+    <script src="index.js"></script>
+</body>
+</html>

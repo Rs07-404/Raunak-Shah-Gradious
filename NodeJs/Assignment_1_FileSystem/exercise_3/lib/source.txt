@@ -1,0 +1,9 @@
+This is the sample content of source.txt.
+
+1. Line one of the file.
+2. Line two of the file.
+3. Line three of the file.
+
+The purpose of this file is to demonstrate the file copying functionality in Node.js.
+
+Thank you!

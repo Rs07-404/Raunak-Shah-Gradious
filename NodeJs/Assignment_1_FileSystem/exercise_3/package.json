@@ -1,0 +1,20 @@
+{
+    "name": "exercise_3",
+    "version": "1.0.0",
+    "description": "Copy File",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node index.js"
+    },
+    "packages": {
+    "": {
+      "dependencies": {
+        "fs": "^0.0.1-security",
+        "path": "^0.12.7"
+      }
+    }
+  },
+    "author": "rs7",
+    "license": "ISC"
+}

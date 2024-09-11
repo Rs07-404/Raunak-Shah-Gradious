@@ -1,0 +1,13 @@
+{
+    "name": "buddy_list",
+    "description": "chat platform",
+    "version": "2.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "rs7",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "crud_api",
+    "description": "a CRUD API",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "rs7",
+    "type": "module",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.11.0"
+    }
+}

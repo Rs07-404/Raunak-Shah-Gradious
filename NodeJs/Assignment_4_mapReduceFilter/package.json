@@ -1,0 +1,11 @@
+{
+    "name": "assignment_4",
+    "description": "Mapping, Reducing, Filtering of data",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "type": "module",
+    "author": "rs7",
+    "license": "ISC"
+}
