@@ -58,6 +58,8 @@ button{
     height: 40px;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .unfill{
@@ -66,12 +68,23 @@ button{
     color: #0086e5;
 }
 
+.unfill:hover{
+    border: 1px solid #0086e5;
+    background-color: #0086e5;
+    color: white;
+}
+
 .fill{
     border: 1px solid #0086e5;
     background-color: #0086e5;
     color: white;
 }
 
+.fill:hover{
+    border: 1px solid #0086e5;
+    background-color: #000000;
+    color: #ffffff;
+}
 
 .bold{
     font-weight: bold;
@@ -107,4 +120,18 @@ button{
 
 .locationSpace{
     margin: 5px 0 10px 0;
+}
+
+.star{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 120px;
+    background-color: #ffffff;
+}
+
+.star > img{
+    width: 15px;
+    height: 15px;
 }

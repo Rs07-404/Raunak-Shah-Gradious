@@ -9,6 +9,7 @@ function Card(props){
     return (
         <div className="card">
             <div className="top">
+                <div className="star"><img src={(props.featured)?`${process.env.PUBLIC_URL}/star.png`:`${process.env.PUBLIC_URL}/unstar.png`} alt="star" /></div>
                 <Avatar link={(props.profileImage === null)?'image.png':props.profileImage} alt={props.name}/>
                 <div className="bold">{props.profession}</div>
                 <div className="bold small gray">{props.income}</div>
