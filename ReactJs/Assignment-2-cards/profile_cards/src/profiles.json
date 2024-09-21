@@ -1,8 +1,22 @@
 [
     {
-        "name":"Jeffrey Abrams, 51"
+        "name":"Jeffrey Abrams, 51",
+        "profession": "Film Director, Producer",
+        "income": "€14/hour",
+        "location": "New York, United States",
+        "info": "Abrams was born in New York City and raised in Los Angeles",
+        "profileImage": "https://www.comingsoon.net/wp-content/uploads/sites/3/2018/02/GettyImages-875362426-e1517526513104.jpg?resize=364,244",
+        "cvlink": "",
+        "status": "online"
     },
     {
-
+        "name": "Baltasar Kormakur, 52",
+        "profession": "Actor, Film Director",
+        "income": "€9/hour",
+        "location": "New York, United States",
+        "info": "Abrams was born in New York City and raised in Los Angeles",
+        "profileImage": null,
+        "cvlink": "",
+        "status": "17 minutes ago"
     }
 ]

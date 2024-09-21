@@ -3,7 +3,9 @@ import "./avatarcss.css";
 
 function Avatar(props){
     return(
-        <img className="avatar" src={props.link} alt={props.name}></img>
+        <div className="avatar">
+            <img src={props.link} alt={props.name} />
+        </div>
     );
 }
 
