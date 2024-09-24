@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "name":"Raunak Shah",
+        "profession": "Full Stack Web Developer",
+        "location": "Kolhapur, Maharashtra",
+        "info": "Currently Pursuing B.tech at Walchand Intstitute of Technology Solapur",
+        "profileImage": "https://rs07-404.github.io/raunak-shah-portfolio/assets/images/profile.jpg",
+        "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB",
+        "featured": false,
+        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
+        "status": "online"
+    },
+    {
+        "id": 1,
+        "name": "Baltasar Kormakur, 52",
+        "profession": "Actor, Film Director",
+        "income": "€9/hour",
+        "location": "Reykjavik, Iceland",
+        "info": "Icelandic actor, theater and film director, and film producer",
+        "profileImage": null,
+        "cvlink": "",
+        "featured": true,
+        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
+        "status": "2024-09-24T09:30:00-07:00"
+    }
+]
