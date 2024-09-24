@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "name":"Raunak Shah",
+        "profession": "Full Stack Web Developer",
+        "location": "Kolhapur, Maharashtra",
+        "info": "Currently Pursuing B.tech at Walchand Intstitute of Technology Solapur",
+        "profileImage": "https://rs07-404.github.io/raunak-shah-portfolio/assets/images/profile.jpg",
+        "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB",
+        "featured": false,
+        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
+        "status": "online"
+    },
+    {
+        "id": 1,
+        "name": "Aditi Singh",
+        "profession": "Data Scientist",
+        "location": "Bangalore, Karnataka",
+        "info": "Currently working as a Data Scientist at Tech Solutions Pvt. Ltd.",
+        "profileImage": null,
+        "cvlink": "https://drive.example.com/aditi-singh-cv",
+        "featured": true,
+        "skills": ["Python", "Machine Learning", "TensorFlow", "Pandas", "Data Visualization"],
+        "status": "online"
+    },
+    {
+        "id": 2,
+        "name": "Raj Patel",
+        "profession": "UI/UX Designer",
+        "location": "Ahmedabad, Gujarat",
+        "info": "UI/UX Designer at Creative Studio, focusing on user-centered designs.",
+        "profileImage": null,
+        "cvlink": "https://drive.example.com/raj-patel-cv",
+        "featured": false,
+        "skills": ["Figma", "Adobe XD", "Sketch", "Prototyping", "Wireframing"],
+        "status": "offline",
+        "lastSeen": "2024-09-24T08:30:00Z"
+    },
+    {
+        "id": 3,
+        "name": "Priya Mehta",
+        "profession": "Backend Developer",
+        "location": "Mumbai, Maharashtra",
+        "info": "Currently working as a Backend Developer at FinTech Corp.",
+        "profileImage": null,
+        "cvlink": "https://drive.example.com/priya-mehta-cv",
+        "featured": true,
+        "skills": ["NodeJs", "ExpressJs", "PostgreSQL", "AWS", "API Development"],
+        "status": "online"
+    },
+    {
+        "id": 4,
+        "name": "Arjun Kumar",
+        "profession": "DevOps Engineer",
+        "location": "Hyderabad, Telangana",
+        "info": "DevOps Engineer at CloudOps Solutions with expertise in CI/CD pipelines.",
+        "profileImage": null,
+        "cvlink": "https://drive.example.com/arjun-kumar-cv",
+        "featured": false,
+        "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Jenkins"],
+        "status": "offline",
+        "lastSeen": "2024-09-24T08:30:00Z"
+    },
+    {
+        "id": 5,
+        "name": "Sneha Verma",
+        "profession": "Frontend Developer",
+        "location": "Pune, Maharashtra",
+        "info": "Frontend Developer specializing in building responsive web applications.",
+        "profileImage": null,
+        "cvlink": "https://drive.example.com/sneha-verma-cv",
+        "featured": true,
+        "skills": ["ReactJs", "HTML", "CSS", "JavaScript", "Bootstrap"],
+        "status": "online"
+    }
+    
+]

@@ -1,0 +1,22 @@
+.counter{
+  font-size: 300%;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+button{
+  padding: 0.5rem;
+  border: none;
+  background-color: #347bb7;
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: #2e6ea3;
+}

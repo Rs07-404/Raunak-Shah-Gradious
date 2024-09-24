@@ -7,21 +7,21 @@
         "info": "Currently Pursuing B.tech at Walchand Intstitute of Technology Solapur",
         "profileImage": "https://rs07-404.github.io/raunak-shah-portfolio/assets/images/profile.jpg",
         "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB",
-        "featured": false,
+        "featured": true,
         "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
         "status": "online"
     },
     {
-        "id": 1,
-        "name": "Baltasar Kormakur, 52",
-        "profession": "Actor, Film Director",
-        "income": "€9/hour",
-        "location": "Reykjavik, Iceland",
-        "info": "Icelandic actor, theater and film director, and film producer",
+        "id": 2,
+        "name": "Raj Patel",
+        "profession": "UI/UX Designer",
+        "location": "Ahmedabad, Gujarat",
+        "info": "UI/UX Designer at Creative Studio, focusing on user-centered designs.",
         "profileImage": null,
-        "cvlink": "",
-        "featured": true,
-        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
-        "status": "2024-09-24T09:30:00-07:00"
+        "cvlink": "https://drive.example.com/raj-patel-cv",
+        "featured": false,
+        "skills": ["Figma", "Adobe XD", "Sketch", "Prototyping", "Wireframing"],
+        "status": "offline",
+        "lastSeen": "2024-09-24T08:30:00Z"
     }
 ]
