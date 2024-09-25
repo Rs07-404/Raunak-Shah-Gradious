@@ -1,0 +1,25 @@
+.task{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    gap: 10px;
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5%;
+}
+
+.info{
+    display: flex;
+    text-align: left;
+    flex: 95%;
+}
+
+.delete > button{
+    width: 1rem;
+    height: 1rem;
+}
+

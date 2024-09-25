@@ -1,0 +1,14 @@
+.emptyList{
+    color: grey;   
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+    min-width: 20%;
+    max-width: 80%;
+}
