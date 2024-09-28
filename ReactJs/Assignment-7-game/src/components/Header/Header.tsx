@@ -11,6 +11,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import './stats.css';
 
 function ResponsiveAppBar() {
     const {matchLeft, wrongMatches} = useContext(GameContext);
@@ -45,6 +46,7 @@ function ResponsiveAppBar() {
             }}
           >
             Memory Game
+            
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -104,7 +106,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' }, justifyContent:'center'}}>
               {(matchLeft === 0)&& <Button key="0" onClick={handleCloseNavMenu} sx={{ my: 1, color: 'black', display: 'block' }}>
               <Typography variant="h5" noWrap component="a" href="/" sx={{color: 'black', textDecoration: 'none',}}>
-                Game Over Restart ?
+                <div id="restart">Game Over, Restart?</div> 
               </Typography>
               </Button>
               }

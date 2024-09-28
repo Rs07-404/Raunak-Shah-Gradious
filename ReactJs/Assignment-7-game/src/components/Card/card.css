@@ -8,7 +8,14 @@
     100%{transform: scale(0);}
 }
 
-
+@keyframes popout {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .card{
     display: flex;
     justify-content: center;
@@ -17,19 +24,20 @@
     height: 20%;
     flex: 0 0 (20% - 10px);
     border-radius: 5px;
+    background-color: white;
     border: 1px solid rgb(209, 209, 209);
-    box-shadow: 2px 4px 16px rgb(197, 197, 197);
+    box-shadow: 2px 4px 16px rgb(83, 83, 83);
     transform: rotateY(180deg);
     transition: transform 0.5s;
-    animation: 3s hideCard linear;
+    animation: 1s popout linear, 3s hideCard linear 1s;
 }
 
 img{
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
     transition: transform 0.5s;
     transform: scale(0);
-    animation: 1.5s hideImage linear;
+    animation: 1s popout linear, 1.5s hideImage linear 1s;
 }
 
 

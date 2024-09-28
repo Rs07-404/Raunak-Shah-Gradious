@@ -11,11 +11,10 @@ h1{
 .game{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: rgb(0, 0, 0);
-  height: 100vh;
-  width: 100%;
+  height: 90vh;
+  /* width: 100%; */
   background: linear-gradient(145deg, #f9e8e6, #f5f4dc, #e6f9e6, #dcebf5, #f5dcf5);
-  overflow: hidden;
 }

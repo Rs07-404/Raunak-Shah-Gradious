@@ -1,13 +1,29 @@
+@keyframes gamepop {
+    0%{
+        transform: scale(0);
+    }
+    80%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .gameContainer{
-    height: 80vh;
-    width: 80vh;
+    height: 90%;
+    aspect-ratio: 1;
+    transition: transform 0.5s;
+    animation: 0.5s gamepop linear;
+    background-color: rgb(247, 255, 133);
     display: flex;
-    gap: 10px;
     padding: 1rem;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(255, 255, 255);
     box-shadow: 2px 8px 64px rgb(196, 196, 196);
     margin: 1rem;
 }
