@@ -8,6 +8,10 @@ body {
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
+
+.dropdown-menu{
+	display: block;
+}
 .note
 {
     text-align: center;

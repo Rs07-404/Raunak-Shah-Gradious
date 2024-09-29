@@ -7,12 +7,10 @@ import { AppointmentContextProvider } from './context/AppointementContext'
 function App() {
 
   return (
-    <React.Fragment>
     <AppointmentContextProvider>
       <Form />
       <List />
     </AppointmentContextProvider>
-    </React.Fragment>
   )
 }
 

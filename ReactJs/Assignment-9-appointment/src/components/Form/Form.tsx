@@ -33,7 +33,7 @@ const Form = ()=>{
                                     <input name="patientName" type="text" className="form-control" placeholder="Patient Name *" onChange={handleChange} value={formData.patientName} required/>
                                 </div>
                                 <div className="form-group">
-                                    <select name="gender" onChange={handleChange}  className="form-control" required>
+                                    <select name="gender" onChange={handleChange} value={formData.gender}  className="form-control" required>
                                         <option value="">Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option> 
@@ -62,7 +62,7 @@ const Form = ()=>{
                                     <input name="doctorName" type="text" className="form-control"  onChange={handleChange} placeholder="Doctor Name *" value={formData.doctorName} required/>
                                 </div>
                                 <div className="form-group">
-                                    <select name="status" onChange={handleChange}  className="form-control" required>
+                                    <select name="status" onChange={handleChange} value={formData.status} className="form-control" required>
                                     <option value="">Select Appointment Type</option>
                                     <option value="Consult">Consult</option>
                                     <option value="Revisit">Revisit</option> 

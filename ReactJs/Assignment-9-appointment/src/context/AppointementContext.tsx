@@ -32,12 +32,14 @@ export const AppointmentContextProvider = ({children})=>{
     const [formData, updateFormData] = useState<appointmentType>(emptyFormData);
     const [appointments, updateAppointments] = useState<appointmentType[]>([]);
     const [formUpdate, changeformUpdate] = useState<boolean>(false);
-    let currentUpdateIndex = -1;
+    const [currentUpdateIndex, changeCurrentUpdateIndex] = useState(-1);
 
-    const callUpdateForm = (index: number) => {
+    const callUpdateForm = (index) => {
         changeformUpdate(true);
-        currentUpdateIndex = index;
-        updateFormData({...appointments[index]})
+        changeCurrentUpdateIndex(index);
+        const data = appointments;
+        console.log(data[index])
+        updateFormData({...data[index]})
     }
 
     const addAppointment = ()=>{
@@ -49,19 +51,21 @@ export const AppointmentContextProvider = ({children})=>{
         updateFormData({...data});
     }
 
-    const deleteAppointment = (index: number)=>{
+    const deleteAppointment = (index)=>{
         const newAppointments = appointments.filter((appointment, i)=>{if (i!=index) return appointment})
         updateAppointments([...newAppointments]);
-        currentUpdateIndex = -1;
     }
 
-    const updateAppointment = ()=>{
-        let tempAppointments = appointments;
-        tempAppointments[currentUpdateIndex] = formData;
+    const updateAppointment = () => {
+        const tempAppointments = appointments.map((appointment, i) =>
+            i === currentUpdateIndex ? { ...formData } : { ...appointment }
+        );
         updateAppointments(tempAppointments);
         updateFormData(defaultFormData);
         changeformUpdate(false);
-    }
+        changeCurrentUpdateIndex(-1);
+    };
+    
 
     return(
         <AppointmentContext.Provider value={{appointments, formData, formUpdate, callUpdateForm, changeFormData, addAppointment, deleteAppointment, updateAppointment}}>
