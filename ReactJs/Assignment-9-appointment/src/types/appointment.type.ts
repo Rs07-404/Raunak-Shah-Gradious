@@ -1,11 +1,11 @@
 
 export type appointmentType = {
-    name: string,
-    age: string,
+    patientName: string,
+    age: any,
     gender: string,
     status: string,
-    time: string,
-    date: string,
-    number: string,
-    doctor: string,
+    time: any,
+    date: any,
+    phoneNumber: string,
+    doctorName: string,
 }
