@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import CardDetail from './components/CardDetail/CardDetail';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/card_details/:id' element={<CardDetail />} />
       </Routes>
     </Router>
+    <Footer/>
     </>
   );
 }

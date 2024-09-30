@@ -1,77 +1,278 @@
 [
     {
         "id": 0,
-        "name":"Raunak Shah",
+        "name": "Raunak Shah",
         "profession": "Full Stack Web Developer",
         "location": "Kolhapur, Maharashtra",
-        "info": "Currently Pursuing B.tech at Walchand Intstitute of Technology Solapur",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122283.6886685879!2d74.15646575366002!3d16.70861665635868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1727708545998!5m2!1sen!2sin",
+        "email": "shahrrs2004@gmail.com",
+        "phone": "+91-7620880485",
+        "linkedIn": "https://www.linkedin.com/in/raunak-shah7",
+        "github": "https://github.com/Rs07-404",
+        "portfolio": "https://rs07-404.github.io/raunak-shah-portfolio/",
+        "info": "Currently Pursuing B.Tech at Walchand Institute of Technology Solapur",
         "profileImage": "https://rs07-404.github.io/raunak-shah-portfolio/assets/images/profile.jpg",
-        "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB",
+        "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB&export=download",
+        "experience": [
+            {
+                "role": "Trainee",
+                "company": "Gradious Technologies (P) Ltd.",
+                "years": "Mar 2024 - running"
+            },
+            {
+                "role": "SDE Intern",
+                "company": "Octanet Services Pvt. Ltd.",
+                "years": "Feb 2024 - Mar 2024"
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.Tech in Electronics and Computer Engineering",
+                "institution": "Walchand Institute of Technology",
+                "years": "2021 - 2025"
+            }
+        ],
+        "certifications": ["AWS Cloud Practitioner", "Python for Data Science"],
+        "skills": ["ReactJs", "MongoDB", "NodeJs", "API", "ExpressJs", "MySQL", "Python"],
+        "status": "online",
+        "bio": "A passionate full-stack developer with expertise in React and Node.js...",
         "featured": false,
-        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs", "MySQL", "Python"],
-        "status": "online"
+        "lastSeen": "2024-09-30T10:15:00Z"
     },
     {
         "id": 1,
-        "name": "Aditi Singh",
-        "profession": "Data Scientist",
-        "location": "Bangalore, Karnataka",
-        "info": "Currently working as a Data Scientist at Tech Solutions Pvt. Ltd.",
-        "profileImage": null,
-        "cvlink": "https://drive.example.com/aditi-singh-cv",
+        "name": "Sundar Pichai",
+        "profession": "CEO, Alphabet Inc.",
+        "location": "Mountain View, California",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.22797256967!2d-122.16366802083024!3d37.413306506174536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1727708870118!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/sundarpichai",
+        "github": null,
+        "portfolio": "https://about.google/our-story/",
+        "info": "Sundar Pichai is the CEO of Alphabet Inc. and Google, known for his visionary leadership in technology.",
+        "profileImage": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRyRO88ATLjhaUzr12Tdt_xPGfF3KGeRnQRqRrB2CNLhwGoktP7XaRUREKpn9nKm8Dl0MkRiRfKqx5n0n0",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "CEO",
+                "company": "Alphabet Inc.",
+                "years": "2019 - Present"
+            },
+            {
+                "role": "CEO",
+                "company": "Google LLC",
+                "years": "2015 - Present"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MBA",
+                "institution": "Wharton School of the University of Pennsylvania",
+                "years": "2002"
+            },
+            {
+                "degree": "MS in Material Sciences and Engineering",
+                "institution": "Stanford University",
+                "years": "1995"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Leadership", "Strategy", "Technology Innovation"],
         "featured": true,
-        "skills": ["Python", "Machine Learning", "TensorFlow", "Pandas", "Data Visualization"],
-        "status": "online"
+        "status": "online",
+        "bio": "Sundar Pichai oversees one of the world's largest technology companies, known for its search engine, ads, and innovation...",
+        "lastSeen": "2024-09-30T10:15:00Z"
     },
     {
         "id": 2,
-        "name": "Raj Patel",
-        "profession": "UI/UX Designer",
-        "location": "Ahmedabad, Gujarat",
-        "info": "UI/UX Designer at Creative Studio, focusing on user-centered designs.",
-        "profileImage": null,
-        "cvlink": "https://drive.example.com/raj-patel-cv",
-        "featured": false,
-        "skills": ["Figma", "Adobe XD", "Sketch", "Prototyping", "Wireframing"],
+        "name": "Elon Musk",
+        "profession": "CEO, SpaceX & Tesla",
+        "location": "Austin, Texas",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440900.25075381575!2d-98.08539470457364!3d30.307347737273965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1727714561681!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/elonmusk",
+        "github": null,
+        "portfolio": "https://www.spacex.com/",
+        "info": "Elon Musk is the CEO of SpaceX and Tesla, known for his work in space exploration, electric vehicles, and technology innovation.",
+        "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/181px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "CEO",
+                "company": "Tesla, Inc.",
+                "years": "2008 - Present"
+            },
+            {
+                "role": "CEO",
+                "company": "SpaceX",
+                "years": "2002 - Present"
+            }
+        ],
+        "education": [
+            {
+                "degree": "BS in Physics",
+                "institution": "University of Pennsylvania",
+                "years": "1995"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Leadership", "Engineering", "Product Innovation"],
         "status": "offline",
-        "lastSeen": "2024-09-24T08:30:00Z"
+        "bio": "Elon Musk is a visionary entrepreneur aiming to revolutionize space travel and electric vehicles through his companies...",
+        "featured": false,
+        "lastSeen": "2024-09-30T10:15:00Z"
     },
     {
         "id": 3,
-        "name": "Priya Mehta",
-        "profession": "Backend Developer",
-        "location": "Mumbai, Maharashtra",
-        "info": "Currently working as a Backend Developer at FinTech Corp.",
-        "profileImage": null,
-        "cvlink": "https://drive.example.com/priya-mehta-cv",
+        "name": "Satya Nadella",
+        "profession": "CEO, Microsoft",
+        "location": "Redmond, Washington",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85972.36413487847!2d-122.18219941333552!3d47.67205990251839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900cad2000ee23%3A0x5e0390eac5d804f2!2sRedmond%2C%20WA%2C%20USA!5e0!3m2!1sen!2sin!4v1727714611309!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/satya-nadella",
+        "github": null,
+        "portfolio": "https://news.microsoft.com/leadership/satya-nadella/",
+        "info": "Satya Nadella is the CEO of Microsoft, known for transforming the company towards cloud computing and AI technologies.",
+        "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/188px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "CEO",
+                "company": "Microsoft",
+                "years": "2014 - Present"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MBA",
+                "institution": "University of Chicago Booth School of Business",
+                "years": "1997"
+            },
+            {
+                "degree": "MS in Computer Science",
+                "institution": "University of Wisconsin–Milwaukee",
+                "years": "1990"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Leadership", "Cloud Computing", "AI"],
+        "status": "online",
+        "bio": "Satya Nadella is recognized for steering Microsoft to the forefront of cloud computing and AI, redefining the company’s future...",
         "featured": true,
-        "skills": ["NodeJs", "ExpressJs", "PostgreSQL", "AWS", "API Development"],
-        "status": "online"
+        "lastSeen": "2024-09-30T10:15:00Z"
     },
     {
         "id": 4,
-        "name": "Arjun Kumar",
-        "profession": "DevOps Engineer",
-        "location": "Hyderabad, Telangana",
-        "info": "DevOps Engineer at CloudOps Solutions with expertise in CI/CD pipelines.",
-        "profileImage": null,
-        "cvlink": "https://drive.example.com/arjun-kumar-cv",
-        "featured": false,
-        "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Jenkins"],
+        "name": "Tim Cook",
+        "profession": "CEO, Apple Inc.",
+        "location": "Cupertino, California",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101548.97598553065!2d-122.12604547592514!3d37.309221384533735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb4571bd377ab%3A0x394d3fe1a3e178b4!2sCupertino%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1727714690546!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/tim-cook",
+        "github": null,
+        "portfolio": "https://www.apple.com/leadership/tim-cook/",
+        "info": "Tim Cook is the CEO of Apple Inc., credited with growing Apple’s portfolio and profits post-Steve Jobs.",
+        "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Visit_of_Tim_Cook_to_the_European_Commission_-_P061904-946789.jpg/160px-Visit_of_Tim_Cook_to_the_European_Commission_-_P061904-946789.jpg",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "CEO",
+                "company": "Apple Inc.",
+                "years": "2011 - Present"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MBA",
+                "institution": "Duke University",
+                "years": "1988"
+            },
+            {
+                "degree": "BS in Industrial Engineering",
+                "institution": "Auburn University",
+                "years": "1982"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Leadership", "Operations", "Product Strategy"],
         "status": "offline",
-        "lastSeen": "2024-09-24T08:30:00Z"
+        "bio": "Tim Cook has effectively led Apple through significant product launches and innovation, maintaining its status as a tech giant...",
+        "featured": false,
+        "lastSeen": "2024-09-30T10:15:00Z"
     },
     {
         "id": 5,
-        "name": "Sneha Verma",
-        "profession": "Frontend Developer",
-        "location": "Pune, Maharashtra",
-        "info": "Frontend Developer specializing in building responsive web applications.",
-        "profileImage": null,
-        "cvlink": "https://drive.example.com/sneha-verma-cv",
+        "name": "Sheryl Sandberg",
+        "profession": "Former COO, Meta",
+        "location": "Menlo Park, California",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101322.77925275682!2d-122.2374760177372!3d37.476376589173995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa6b1117280ff%3A0xebbf998e5df289ab!2sMenlo%20Park%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1727714756787!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/sherylsandberg",
+        "github": null,
+        "portfolio": "https://leanin.org/about/sheryl-sandberg",
+        "info": "Sheryl Sandberg is an American business executive, known for her work as the COO of Meta and as an advocate for women’s empowerment.",
+        "profileImage": "https://media.wired.com/photos/592659ec8d4ebc5ab8069f4d/master/w_1600,c_limit/OptionBTA-1.jpg",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "COO",
+                "company": "Meta Platforms, Inc.",
+                "years": "2008 - 2022"
+            }
+        ],
+        "education": [
+            {
+                "degree": "MBA",
+                "institution": "Harvard Business School",
+                "years": "1995"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Leadership", "Management", "Public Speaking"],
+        "status": "online",
+        "bio": "Sheryl Sandberg is a prominent business leader known for her advocacy in gender equality and leadership in technology...",
         "featured": true,
-        "skills": ["ReactJs", "HTML", "CSS", "JavaScript", "Bootstrap"],
-        "status": "online"
+        "lastSeen": "2024-09-30T10:15:00Z"
+    },
+    {
+        "id": 6,
+        "name": "Mark Zuckerberg",
+        "profession": "CEO, Meta",
+        "location": "Palo Alto, California",
+        "locationLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101391.5531335935!2d-122.21775102022664!3d37.425621402844165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb07b9dba1c39%3A0xe1ff55235f576cf!2sPalo%20Alto%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1727714805137!5m2!1sen!2sin",
+        "email": null,
+        "phone": null,
+        "linkedIn": "https://www.linkedin.com/in/mark-zuckerberg",
+        "github": null,
+        "portfolio": "https://about.fb.com/company-info/mark-zuckerberg/",
+        "info": "Mark Zuckerberg is an American technology entrepreneur, known for co-founding Meta Platforms (formerly Facebook) and leading it as its CEO.",
+        "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/193px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+        "cvlink": "www.example.com/cv",
+        "experience": [
+            {
+                "role": "CEO",
+                "company": "Meta Platforms, Inc.",
+                "years": "2004 - Present"
+            }
+        ],
+        "education": [
+            {
+                "degree": "Computer Science (dropped out)",
+                "institution": "Harvard University",
+                "years": "2002 - 2004"
+            }
+        ],
+        "certifications": null,
+        "skills": ["Programming", "Leadership", "Product Strategy"],
+        "status": "online",
+        "bio": "Mark Zuckerberg is a globally recognized technology leader and philanthropist, who revolutionized social media with the creation of Facebook...",
+        "featured": true,
+        "lastSeen": "2024-09-30T11:00:00Z"
     }
     
 ]

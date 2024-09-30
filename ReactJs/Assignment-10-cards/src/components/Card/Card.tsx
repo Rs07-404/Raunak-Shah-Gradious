@@ -4,7 +4,6 @@ import "./cardcss.css";
 import Featured from "../Featured/Featured.js";
 
 function Card(props: {profile: Profile}){
-    console.log(props.profile);
     const openLinks = function(){
         window.open(props.profile.cvlink, '_blank')
     }
