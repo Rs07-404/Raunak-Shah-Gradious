@@ -1,0 +1,150 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    min-height: 20rem;
+    max-width: 250px;
+    flex: 1 1 250px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 16px 64px gray;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+svg{
+    margin: 4px 2px 0 2px;
+}
+
+.card > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.top{
+    flex: 40%;
+    background-color: #ffffff;
+    border-radius: 15px 15px 0 0;
+    padding: 1rem;
+}
+
+.bottom{
+    flex: 60%;
+    background-color: #f8f8f8;
+    border-radius: 0 0 15px 15px;
+    padding: 1rem;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    scale: 1;
+    border-radius: 50%;
+}
+
+.online{
+    background-color: #8acc64;
+}
+
+.offline{
+    background-color: #cc6464;
+}
+
+button{
+    margin: 5px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.unfill{
+    border: 1px solid #0086e5;
+    background-color: #ffffff;
+    color: #0086e5;
+}
+
+.unfill:hover{
+    border: 1px solid #0086e5;
+    background-color: #0086e5;
+    color: white;
+}
+
+.fill{
+    border: 1px solid #0086e5;
+    background-color: #0086e5;
+    color: white;
+}
+
+.fill:hover{
+    border: 1px solid #0086e5;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small{
+    font-size: small;
+}
+
+.tiny{
+    font-size: x-small;
+}
+
+.gray{
+    color: gray;
+}
+
+.lightGray{
+    color: rgb(183, 183, 183);
+}
+
+.space10{
+    margin: 10px;
+}
+
+.space5{
+    margin: 5px;
+}
+
+.space20{
+    margin: 20px;
+}
+
+.locationSpace{
+    margin: 5px 0 10px 0;
+}
+
+.star{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 120px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.star > img{
+    width: 15px;
+    height: 15px;
+}
