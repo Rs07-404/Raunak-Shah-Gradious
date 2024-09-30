@@ -8,7 +8,7 @@
         "profileImage": "https://rs07-404.github.io/raunak-shah-portfolio/assets/images/profile.jpg",
         "cvlink": "https://drive.usercontent.google.com/u/0/uc?id=1MYZ4FXEMlz94ZFzQXnOg_665IXdVmXkB",
         "featured": false,
-        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs"],
+        "skills": ["ReactJs", "Mongo DB", "NodeJs", "API", "ExpressJs", "MySQL", "Python"],
         "status": "online"
     },
     {

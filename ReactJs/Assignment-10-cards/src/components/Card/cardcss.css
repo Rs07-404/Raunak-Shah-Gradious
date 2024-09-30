@@ -9,7 +9,7 @@
     flex: 1 1 250px;
     border: none;
     border-radius: 15px;
-    box-shadow: 2px 16px 64px gray;
+    box-shadow: 2px 4px 32px rgb(182, 182, 182);
 }
 
 a{
@@ -132,19 +132,4 @@ button{
 
 .locationSpace{
     margin: 5px 0 10px 0;
-}
-
-.star{
-    position: relative;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    top: 120px;
-    background-color: #ffffff;
-    z-index: 1;
-}
-
-.star > img{
-    width: 15px;
-    height: 15px;
 }

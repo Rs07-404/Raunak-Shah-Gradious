@@ -1,6 +1,7 @@
 import { Profile } from "../../types/profile.type.js";
 import Avatar from '@mui/material/Avatar';
 import "./cardcss.css";
+import Featured from "../Featured/Featured.js";
 
 function Card(props: {profile: Profile}){
     console.log(props.profile);
@@ -11,10 +12,10 @@ function Card(props: {profile: Profile}){
         <a href={`/card_details/${props.profile.id}`}>
         <div className="card">
             <div className="top">
-                <div className="star"><img src={(props.profile.featured)?`/images/star.png`:`/images/unstar.png`} alt="star" /></div>
+                <Featured class="star" featured = {props.profile.featured}/>
                 <Avatar alt={props.profile.name} src={`${props.profile.profileImage||"/images/image.png"}`} sx={{ width: "100px", height: "100px", margin:"10px", '& img':{width: "100%", height: "120%", objectFit: "cover"} }} />
                 <div className="bold">{props.profile.profession}</div>
-                <div className="bold small gray">{props.profile.skills.join(', ')}</div>
+                <div className="bold small gray space10">{props.profile.skills.join(', ')}</div>
             </div>
             <div className="bottom">
                 <div className="bold space10">{props.profile.name}</div>
